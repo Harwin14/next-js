@@ -1,0 +1,5 @@
+getStaticProps // data tidak langsung berubah dan ada file page 
+getServerSideProps berinteraksi langsung dengan API //data dirubah langsung berubah
+
+client side data patching sangat berguna jika terdapat perubahan data saat inital request
+client side data patching ini tidak SEO friendly sehingga sangat cocok untuk halaman private seperti dashboard dan panel lainnya 
