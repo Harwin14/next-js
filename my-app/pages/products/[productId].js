@@ -25,7 +25,7 @@ const ProductDetail = () => {
     //         );
     //         const data = await response.json();
     //         setName(data.name);
-    //         setPrice(data.price);
+    //         setPrice(data.price); 
     //     };
     //     getProductById();
     // }, [productId]);
