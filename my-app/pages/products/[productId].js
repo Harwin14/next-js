@@ -17,7 +17,7 @@ const ProductDetail = () => {
         const { data, error } = useSWR(`http://localhost:5000/products/${productId}`, fetcher);
         if (error) return <div>Failed to load</div>;
         if (!data) return <div>Loading...</div>;
-
+ 
     // useEffect(() => {
     //     const getProductById = async () => {
     //         const response = await fetch(
